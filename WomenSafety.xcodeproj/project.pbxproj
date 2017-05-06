@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9C91DE1EBDC2F000BC4995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C91DD1EBDC2F000BC4995 /* AppDelegate.swift */; };
+		3F9C91E01EBDC2F000BC4995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C91DF1EBDC2F000BC4995 /* ViewController.swift */; };
+		3F9C91E31EBDC2F000BC4995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C91E11EBDC2F000BC4995 /* Main.storyboard */; };
+		3F9C91E51EBDC2F000BC4995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C91E41EBDC2F000BC4995 /* Assets.xcassets */; };
+		3F9C91E81EBDC2F000BC4995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C91E61EBDC2F000BC4995 /* LaunchScreen.storyboard */; };
+		3F9C91F31EBDC2F000BC4995 /* WomenSafetyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C91F21EBDC2F000BC4995 /* WomenSafetyTests.swift */; };
+		3F9C91FE1EBDC2F000BC4995 /* WomenSafetyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C91FD1EBDC2F000BC4995 /* WomenSafetyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9C91EF1EBDC2F000BC4995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9C91D21EBDC2EF00BC4995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9C91D91EBDC2F000BC4995;
+			remoteInfo = WomenSafety;
+		};
+		3F9C91FA1EBDC2F000BC4995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9C91D21EBDC2EF00BC4995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9C91D91EBDC2F000BC4995;
+			remoteInfo = WomenSafety;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F9C91DA1EBDC2F000BC4995 /* WomenSafety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WomenSafety.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9C91DD1EBDC2F000BC4995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F9C91DF1EBDC2F000BC4995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F9C91E21EBDC2F000BC4995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F9C91E41EBDC2F000BC4995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9C91E71EBDC2F000BC4995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F9C91E91EBDC2F000BC4995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9C91EE1EBDC2F000BC4995 /* WomenSafetyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WomenSafetyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9C91F21EBDC2F000BC4995 /* WomenSafetyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenSafetyTests.swift; sourceTree = "<group>"; };
+		3F9C91F41EBDC2F000BC4995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9C91F91EBDC2F000BC4995 /* WomenSafetyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WomenSafetyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9C91FD1EBDC2F000BC4995 /* WomenSafetyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenSafetyUITests.swift; sourceTree = "<group>"; };
+		3F9C91FF1EBDC2F000BC4995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9C91D71EBDC2F000BC4995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9C91EB1EBDC2F000BC4995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9C91F61EBDC2F000BC4995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9C91D11EBDC2EF00BC4995 = {
+			isa = PBXGroup;
+			children = (
+				3F9C91DC1EBDC2F000BC4995 /* WomenSafety */,
+				3F9C91F11EBDC2F000BC4995 /* WomenSafetyTests */,
+				3F9C91FC1EBDC2F000BC4995 /* WomenSafetyUITests */,
+				3F9C91DB1EBDC2F000BC4995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9C91DB1EBDC2F000BC4995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9C91DA1EBDC2F000BC4995 /* WomenSafety.app */,
+				3F9C91EE1EBDC2F000BC4995 /* WomenSafetyTests.xctest */,
+				3F9C91F91EBDC2F000BC4995 /* WomenSafetyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9C91DC1EBDC2F000BC4995 /* WomenSafety */ = {
+			isa = PBXGroup;
+			children = (
+				3F9C91DD1EBDC2F000BC4995 /* AppDelegate.swift */,
+				3F9C91DF1EBDC2F000BC4995 /* ViewController.swift */,
+				3F9C91E11EBDC2F000BC4995 /* Main.storyboard */,
+				3F9C91E41EBDC2F000BC4995 /* Assets.xcassets */,
+				3F9C91E61EBDC2F000BC4995 /* LaunchScreen.storyboard */,
+				3F9C91E91EBDC2F000BC4995 /* Info.plist */,
+			);
+			path = WomenSafety;
+			sourceTree = "<group>";
+		};
+		3F9C91F11EBDC2F000BC4995 /* WomenSafetyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9C91F21EBDC2F000BC4995 /* WomenSafetyTests.swift */,
+				3F9C91F41EBDC2F000BC4995 /* Info.plist */,
+			);
+			path = WomenSafetyTests;
+			sourceTree = "<group>";
+		};
+		3F9C91FC1EBDC2F000BC4995 /* WomenSafetyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9C91FD1EBDC2F000BC4995 /* WomenSafetyUITests.swift */,
+				3F9C91FF1EBDC2F000BC4995 /* Info.plist */,
+			);
+			path = WomenSafetyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9C91D91EBDC2F000BC4995 /* WomenSafety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9C92021EBDC2F000BC4995 /* Build configuration list for PBXNativeTarget "WomenSafety" */;
+			buildPhases = (
+				3F9C91D61EBDC2F000BC4995 /* Sources */,
+				3F9C91D71EBDC2F000BC4995 /* Frameworks */,
+				3F9C91D81EBDC2F000BC4995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WomenSafety;
+			productName = WomenSafety;
+			productReference = 3F9C91DA1EBDC2F000BC4995 /* WomenSafety.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9C91ED1EBDC2F000BC4995 /* WomenSafetyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9C92051EBDC2F000BC4995 /* Build configuration list for PBXNativeTarget "WomenSafetyTests" */;
+			buildPhases = (
+				3F9C91EA1EBDC2F000BC4995 /* Sources */,
+				3F9C91EB1EBDC2F000BC4995 /* Frameworks */,
+				3F9C91EC1EBDC2F000BC4995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9C91F01EBDC2F000BC4995 /* PBXTargetDependency */,
+			);
+			name = WomenSafetyTests;
+			productName = WomenSafetyTests;
+			productReference = 3F9C91EE1EBDC2F000BC4995 /* WomenSafetyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F9C91F81EBDC2F000BC4995 /* WomenSafetyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9C92081EBDC2F000BC4995 /* Build configuration list for PBXNativeTarget "WomenSafetyUITests" */;
+			buildPhases = (
+				3F9C91F51EBDC2F000BC4995 /* Sources */,
+				3F9C91F61EBDC2F000BC4995 /* Frameworks */,
+				3F9C91F71EBDC2F000BC4995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9C91FB1EBDC2F000BC4995 /* PBXTargetDependency */,
+			);
+			name = WomenSafetyUITests;
+			productName = WomenSafetyUITests;
+			productReference = 3F9C91F91EBDC2F000BC4995 /* WomenSafetyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9C91D21EBDC2EF00BC4995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Asif Ikbal";
+				TargetAttributes = {
+					3F9C91D91EBDC2F000BC4995 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S876Q553L4;
+						ProvisioningStyle = Automatic;
+					};
+					3F9C91ED1EBDC2F000BC4995 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S876Q553L4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F9C91D91EBDC2F000BC4995;
+					};
+					3F9C91F81EBDC2F000BC4995 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S876Q553L4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F9C91D91EBDC2F000BC4995;
+					};
+				};
+			};
+			buildConfigurationList = 3F9C91D51EBDC2EF00BC4995 /* Build configuration list for PBXProject "WomenSafety" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9C91D11EBDC2EF00BC4995;
+			productRefGroup = 3F9C91DB1EBDC2F000BC4995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9C91D91EBDC2F000BC4995 /* WomenSafety */,
+				3F9C91ED1EBDC2F000BC4995 /* WomenSafetyTests */,
+				3F9C91F81EBDC2F000BC4995 /* WomenSafetyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9C91D81EBDC2F000BC4995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9C91E81EBDC2F000BC4995 /* LaunchScreen.storyboard in Resources */,
+				3F9C91E51EBDC2F000BC4995 /* Assets.xcassets in Resources */,
+				3F9C91E31EBDC2F000BC4995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9C91EC1EBDC2F000BC4995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9C91F71EBDC2F000BC4995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9C91D61EBDC2F000BC4995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9C91E01EBDC2F000BC4995 /* ViewController.swift in Sources */,
+				3F9C91DE1EBDC2F000BC4995 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9C91EA1EBDC2F000BC4995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9C91F31EBDC2F000BC4995 /* WomenSafetyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9C91F51EBDC2F000BC4995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9C91FE1EBDC2F000BC4995 /* WomenSafetyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9C91F01EBDC2F000BC4995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9C91D91EBDC2F000BC4995 /* WomenSafety */;
+			targetProxy = 3F9C91EF1EBDC2F000BC4995 /* PBXContainerItemProxy */;
+		};
+		3F9C91FB1EBDC2F000BC4995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9C91D91EBDC2F000BC4995 /* WomenSafety */;
+			targetProxy = 3F9C91FA1EBDC2F000BC4995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F9C91E11EBDC2F000BC4995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9C91E21EBDC2F000BC4995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9C91E61EBDC2F000BC4995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9C91E71EBDC2F000BC4995 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9C92001EBDC2F000BC4995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F9C92011EBDC2F000BC4995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9C92031EBDC2F000BC4995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S876Q553L4;
+				INFOPLIST_FILE = WomenSafety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shomikoron.WomenSafety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F9C92041EBDC2F000BC4995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S876Q553L4;
+				INFOPLIST_FILE = WomenSafety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shomikoron.WomenSafety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F9C92061EBDC2F000BC4995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S876Q553L4;
+				INFOPLIST_FILE = WomenSafetyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shomikoron.WomenSafetyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WomenSafety.app/WomenSafety";
+			};
+			name = Debug;
+		};
+		3F9C92071EBDC2F000BC4995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S876Q553L4;
+				INFOPLIST_FILE = WomenSafetyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shomikoron.WomenSafetyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WomenSafety.app/WomenSafety";
+			};
+			name = Release;
+		};
+		3F9C92091EBDC2F000BC4995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S876Q553L4;
+				INFOPLIST_FILE = WomenSafetyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shomikoron.WomenSafetyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WomenSafety;
+			};
+			name = Debug;
+		};
+		3F9C920A1EBDC2F000BC4995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S876Q553L4;
+				INFOPLIST_FILE = WomenSafetyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shomikoron.WomenSafetyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WomenSafety;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9C91D51EBDC2EF00BC4995 /* Build configuration list for PBXProject "WomenSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9C92001EBDC2F000BC4995 /* Debug */,
+				3F9C92011EBDC2F000BC4995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9C92021EBDC2F000BC4995 /* Build configuration list for PBXNativeTarget "WomenSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9C92031EBDC2F000BC4995 /* Debug */,
+				3F9C92041EBDC2F000BC4995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F9C92051EBDC2F000BC4995 /* Build configuration list for PBXNativeTarget "WomenSafetyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9C92061EBDC2F000BC4995 /* Debug */,
+				3F9C92071EBDC2F000BC4995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F9C92081EBDC2F000BC4995 /* Build configuration list for PBXNativeTarget "WomenSafetyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9C92091EBDC2F000BC4995 /* Debug */,
+				3F9C920A1EBDC2F000BC4995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9C91D21EBDC2EF00BC4995 /* Project object */;
+}
